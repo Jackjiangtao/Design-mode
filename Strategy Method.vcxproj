@@ -19,15 +19,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Strategy\Brid.h" />
+    <ClInclude Include="QuackBehavior.h" />
+    <ClInclude Include="Strategy\Duck.h" />
     <ClInclude Include="Strategy\flyBeahivor.h" />
     <ClInclude Include="Strategy\FlywithWing.h" />
+    <ClInclude Include="Strategy\MuteQuack.h" />
     <ClInclude Include="Strategy\Nofly.h" />
-    <ClInclude Include="Strategy\realBrid.h" />
-    <ClInclude Include="Strategy\ToyBrid.h" />
+    <ClInclude Include="Strategy\Quack.h" />
+    <ClInclude Include="Strategy\realDuck.h" />
+    <ClInclude Include="Strategy\Squack.h" />
+    <ClInclude Include="Strategy\ToyDuck.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FlywithWing.cpp" />
+    <ClCompile Include="Strategy\MuteQuack.cpp" />
+    <ClCompile Include="Strategy\Quack.cpp" />
+    <ClCompile Include="Strategy\realDuck.cpp" />
+    <ClCompile Include="Strategy\Squack.cpp" />
     <ClCompile Include="Strategy\Strategy.cpp" />
+    <ClCompile Include="Strategy\Nofly.cpp" />
+    <ClCompile Include="Strategy\ToyDuck.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -102,6 +113,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>Strategy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -134,6 +146,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>Strategy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

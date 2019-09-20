@@ -5,10 +5,8 @@ class NoFly :public FlyBeahivor
 {
 public:
 
-	void fly()
-	{
-		std::cout << " No fly";
-	}
+	void fly();
+
 private:
 
 };

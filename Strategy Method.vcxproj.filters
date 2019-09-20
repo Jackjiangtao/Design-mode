@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Strategy\flyBeahivor.h">
+      <Filter>Behavior\FlyBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\FlywithWing.h">
+      <Filter>Behavior\FlyBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\Nofly.h">
+      <Filter>Behavior\FlyBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackBehavior.h">
+      <Filter>Behavior\QuackBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\MuteQuack.h">
+      <Filter>Behavior\QuackBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\Quack.h">
+      <Filter>Behavior\QuackBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\Squack.h">
+      <Filter>Behavior\QuackBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\Duck.h">
+      <Filter>Duck</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\realDuck.h">
+      <Filter>Duck\RealDuck</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\ToyDuck.h">
+      <Filter>Duck\ToyDuck</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Behavior">
+      <UniqueIdentifier>{a3e03dde-3327-4d3b-a092-032d4f94664f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior\QuackBehavior">
+      <UniqueIdentifier>{8a8863be-9e4e-41b0-bb77-60f945c138d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior\FlyBehavior">
+      <UniqueIdentifier>{fbab7036-f72c-4a34-b6c3-3dcb48d6a5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Duck">
+      <UniqueIdentifier>{e7bb8d45-2c8e-41bb-89c3-79f798898405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Duck\RealDuck">
+      <UniqueIdentifier>{d5ed8787-2bf3-4f7b-8534-e80d3277a692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Duck\ToyDuck">
+      <UniqueIdentifier>{b4031172-0e5f-43d9-b6bf-fd42ba73d053}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Strategy\Strategy.cpp">
+      <Filter>Duck</Filter>
+    </ClCompile>
+    <ClCompile Include="FlywithWing.cpp">
+      <Filter>Behavior\FlyBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\Nofly.cpp">
+      <Filter>Behavior\FlyBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\MuteQuack.cpp">
+      <Filter>Behavior\QuackBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\Quack.cpp">
+      <Filter>Behavior\QuackBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\Squack.cpp">
+      <Filter>Behavior\QuackBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\realDuck.cpp">
+      <Filter>Duck\RealDuck</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\ToyDuck.cpp">
+      <Filter>Duck\ToyDuck</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

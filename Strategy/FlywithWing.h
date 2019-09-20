@@ -5,10 +5,8 @@ class FlyWing:public FlyBeahivor
 {
 public:
 	
-	void fly()
-	{
-		std::cout << "fly with wing";
-	}
+	void fly();
+
 private:
 
 };

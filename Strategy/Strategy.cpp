@@ -2,21 +2,19 @@
 //
 
 #include <iostream>
-#include "ToyBrid.h"
-#include "Nofly.h"
-#include "realBrid.h"
+#include "ToyDuck.h"
+#include "realDuck.h"
 
 
 int main()
 {
+	ToyDuck toyDuck;
+	toyDuck.disply();
 
-	ToyBrid toy(new NoFly);
-
-	toy.disply();
 	std::cout << std::endl;
 
-	RealBrid brid(new FlyWing);
-	brid.disply();
+	RealDuck realDuck;
+	realDuck.disply();
     
 }
 
