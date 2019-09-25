@@ -53,9 +53,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Strategy\Strategy.cpp">
-      <Filter>Duck</Filter>
-    </ClCompile>
     <ClCompile Include="FlywithWing.cpp">
       <Filter>Behavior\FlyBehavior</Filter>
     </ClCompile>
@@ -76,6 +73,9 @@
     </ClCompile>
     <ClCompile Include="Strategy\ToyDuck.cpp">
       <Filter>Duck\ToyDuck</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy\Strategy.cpp">
+      <Filter>Duck</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
