@@ -18,8 +18,6 @@ int main()
 	weather->setMeasurements(10, 5, 6);
 
 	weather->setMeasurements(100, 65, 66);
-
-
 }
 
 
